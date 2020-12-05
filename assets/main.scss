@@ -140,7 +140,7 @@
   text-transform: uppercase;
   line-height: 1.8em;
   font-size: 16px;
-  color: hsl(0, 0%, 29%);
+	color:#000000;
   text-align:center;
   margin-top:26px;
   max-width: 90%;
@@ -481,9 +481,6 @@ a {
   }
 }
 
-.titleIWW {
-	color:#000000;
-}
 
 #select-nav {
   margin-right: auto;
@@ -491,6 +488,7 @@ a {
   border: none;
   font-size: 16px;
   display: none;
+  opacity: 0;
   max-width: 85%;
   position: absolute !important;
   vertical-align: middle;
@@ -506,6 +504,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   font-size: 24px;
+  color: #ffffff;
   text-transform: uppercase;
   display: none;
   max-width: 85%;
