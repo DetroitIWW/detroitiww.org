@@ -15,3 +15,5 @@ gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 
 gem 'jekyll-redirect-from'
+
+gem 'github-pages', "~> 3.9.0", group: :jekyll_plugins
