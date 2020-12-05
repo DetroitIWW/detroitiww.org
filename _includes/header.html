@@ -3,12 +3,23 @@
   {%- assign meetingDate = site.data.upcoming["next_meeting_date"] | date: '%s' -%}
   {%- assign orientationDate = site.data.upcoming["next_orientation_date"] | date: '%s' -%}
   {%- if siteTime < orientationDate and site.data.upcoming["next_orientation_date"] != '' and site.data.upcoming["next_orientation_time"] != '' and site.data.upcoming["next_orientation_url"] != '' -%}
-    <a href="{{ site.data.upcoming["next_orientation_url"] }}"><div class="next-orientation-header">The next orientation for new members will be on {{ site.data.upcoming["next_orientation_date"] }}, from {{ site.data.upcoming["next_orientation_time"] }}. Click for details.</div></a>
+  <a href="{{ site.data.upcoming["next_orientation_url"] }}">
+    <div class="next-orientation-header">The next orientation for new members will be on
+      {{ site.data.upcoming["next_orientation_date"] }}, from {{ site.data.upcoming["next_orientation_time"] }}. Click
+      for details.</div>
+  </a>
   {%- elsif siteTime < meetingDate and site.data.upcoming["next_meeting_date"] != '' and site.data.upcoming["next_meeting_time"] != '' and site.data.upcoming["next_meeting_url"] != '' -%}
-    <a href="{{ site.data.upcoming["next_meeting_url"] }}"><div class="next-meeting-header">The next meeting of the IWW Detroit General Membership Branch will be on {{ site.data.upcoming["next_meeting_date"] }}, from {{ site.data.upcoming["next_meeting_time"] }}. Click for details.</div></a>
+  <a href="{{ site.data.upcoming["next_meeting_url"] }}">
+    <div class="next-meeting-header">The next meeting of the IWW Detroit General Membership Branch will be on
+      {{ site.data.upcoming["next_meeting_date"] }}, from {{ site.data.upcoming["next_meeting_time"] }}. Click for
+      details.</div>
+  </a>
   {%- endif -%}
-  <img src="{{ site.baseurl }}/assets/globe.png" onclick="window.location.href='{{ site.baseurl }}/';" style="cursor:pointer;display:block;margin-top:70px;margin-left:auto;margin-right:auto;width:430px;padding:10px;max-width:93%;border-radius:100%;" alt="IWW Detroit GMB" id="IWWlogo">
-  <p class="titleIWW">Industrial Workers<span style="text-transform:none !important;font-variant:small-caps;"> of the </span>World</p>
+  <img src="{{ site.baseurl }}/assets/globe.png" onclick="window.location.href='{{ site.baseurl }}/';"
+    style="cursor:pointer;display:block;margin-top:70px;margin-left:auto;margin-right:auto;width:430px;padding:10px;max-width:93%;border-radius:100%;"
+    alt="IWW Detroit GMB" id="IWWlogo">
+  <p class="titleIWW">Industrial Workers<span style="text-transform:none !important;font-variant:small-caps;"> of the
+    </span>World</p>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -16,46 +27,57 @@
     <nav class="site-nav">
       <div id="link-nav">
         <a href="{{ site.baseurl }}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
-        <a href="{{ site.baseurl }}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
-        <a href="{{ site.baseurl }}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
-        <a href="{{ site.baseurl }}/events" class="page-link{% if page.url contains '/events/' %} current{% endif %}">Events</a>
+        <a href="{{ site.baseurl }}/contact"
+          class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
+        <a href="{{ site.baseurl }}/join"
+          class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
+        <a href="{{ site.baseurl }}/events"
+          class="page-link{% if page.url contains '/events/' %} current{% endif %}">Events</a>
         <div id="dropdown">
-          <a href="{{ site.baseurl }}/gmb" class="page-link{% if page.url contains '/gmb/' or page.url == '/gdc/' or page.url == '/safer-space/' or page.url == '/rustys/' or page.url == '/bylaws/' or page.url == '/resources/' %} current{% endif %}">About</a>
+          <a href="{{ site.baseurl }}/gmb"
+            class="page-link{% if page.url contains '/gmb/' or page.url == '/gdc/' or page.url == '/safer-space/' or page.url == '/rustys/' or page.url == '/bylaws/' or page.url == '/resources/' %} current{% endif %}">About</a>
           <div id="dropdown-content">
-            <a href="{{ site.baseurl }}/gmb/" class="page-link{% if page.url == '/gmb/' %} current{% endif %}">General Membership Branch</a>
-            <a href="{{ site.baseurl }}/safer-space/" class="page-link{% if page.url contains '/safer-space/' %} current{% endif %}">Safer Space Policy</a>
+            <a href="{{ site.baseurl }}/gmb/" class="page-link{% if page.url == '/gmb/' %} current{% endif %}">General
+              Membership Branch</a>
+            <a href="{{ site.baseurl }}/safer-space/"
+              class="page-link{% if page.url contains '/safer-space/' %} current{% endif %}">Safer Space Policy</a>
           </div>
         </div>
-        <a href="{{ site.baseurl }}/news" class="page-link{% if page.url contains '/news/' %} current{% endif %}">News</a>
+        <a href="{{ site.baseurl }}/news"
+          class="page-link{% if page.url contains '/news/' %} current{% endif %}">News</a>
       </div>
       <select id="select-nav" onchange="navChange ();location = this.value;">
         <option value="{{ site.baseurl }}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
-        <option value="{{ site.baseurl }}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
+        <option value="{{ site.baseurl }}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact
+        </option>
         <option value="{{ site.baseurl }}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
-        <option value="{{ site.baseurl }}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events</option>
+        <option value="{{ site.baseurl }}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events
+        </option>
         <optgroup label="About">
-          <option value="{{ site.baseurl }}/gmb/" {% if page.url contains '/gmb/' %}selected{% endif %}>General Membership Branch</option>
-          <option value="{{ site.baseurl }}/safer-space/" {% if page.url contains '/safer-space/' %}selected{% endif %}>Safer Space Policy</option>
+          <option value="{{ site.baseurl }}/gmb/" {% if page.url contains '/gmb/' %}selected{% endif %}>General
+            Membership Branch</option>
+          <option value="{{ site.baseurl }}/safer-space/" {% if page.url contains '/safer-space/' %}selected{% endif %}>
+            Safer Space Policy</option>
         </optgroup>
         <option value="{{ site.baseurl }}/news/" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
       </select>
       <span id="current-selection"></span>
 
-<script>
-function navChange () {
-  var select_nav = document.getElementById("select-nav");
-  var select_nav_content = select_nav.options[select_nav.selectedIndex].innerHTML;
-  document.getElementById("current-selection").innerHTML = select_nav_content + "&nbsp;<span style='font-size:12px !important;vertical-align:middle;color:hsl(356, 68%, 41%);'>&#9660;&#xFE0E;</span>";
-  var current_selection_height = document.getElementById("current-selection").offsetHeight;
-  select_nav.style.height = current_selection_height + "px";
-  if (current_selection_height <= 47) {
-    document.getElementById("current-selection").style.paddingLeft = "22px";
-  } else {
-    document.getElementById("current-selection").style.paddingLeft = "0px";
-  }
-}
-navChange ();
-</script>
+      <script>
+        function navChange() {
+          var select_nav = document.getElementById("select-nav");
+          var select_nav_content = select_nav.options[select_nav.selectedIndex].innerHTML;
+          document.getElementById("current-selection").innerHTML = select_nav_content + "&nbsp;<span style='font-size:12px !important;vertical-align:middle;color:#ffffff;'>&#9660;&#xFE0E;</span>";
+          var current_selection_height = document.getElementById("current-selection").offsetHeight;
+          select_nav.style.height = current_selection_height + "px";
+          if (current_selection_height <= 47) {
+            document.getElementById("current-selection").style.paddingLeft = "22px";
+          } else {
+            document.getElementById("current-selection").style.paddingLeft = "0px";
+          }
+        }
+        navChange();
+      </script>
 
     </nav>
     {%- endif -%}
