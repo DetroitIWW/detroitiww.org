@@ -6,7 +6,7 @@ description: The latest news and happenings from the Detroit Industrial Workers 
 
 future: true
 
-paypal: "paypal@iww.nyc"
+paypal: 
 
 logo: /assets/logo.png
 
@@ -24,7 +24,7 @@ github_username: DetroitIWW
 keybase_username: 
 
 social:
-  name: IWW NYC GMB
+  name: Detroit IWW GMB
   links:
     - https://twitter.com/DetroitIWW
     - https://facebook.com/DetroitIWW
