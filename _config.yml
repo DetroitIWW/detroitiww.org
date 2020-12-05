@@ -14,7 +14,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/social.png
+      image: /assets/footer.png
 
 twitter_username: DetroitIWW
 instagram_username: 
