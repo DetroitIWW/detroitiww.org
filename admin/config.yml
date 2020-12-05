@@ -1,11 +1,11 @@
 backend:
  name: github
- repo: IWW-NYC-GMB/iww.nyc
+ repo: detroit-iww/detroit.org
   
 #backend:
 # name: test-repo
 
-display_url: https://iww.nyc
+display_url: https://detroit.org
 
 logo_url: /assets/iww-netlify.png
 

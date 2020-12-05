@@ -5,9 +5,9 @@
   {%- if siteTime < orientationDate and site.data.upcoming["next_orientation_date"] != '' and site.data.upcoming["next_orientation_time"] != '' and site.data.upcoming["next_orientation_url"] != '' -%}
     <a href="{{ site.data.upcoming["next_orientation_url"] }}"><div class="next-orientation-header">The next orientation for new members will be on {{ site.data.upcoming["next_orientation_date"] }}, from {{ site.data.upcoming["next_orientation_time"] }}. Click for details.</div></a>
   {%- elsif siteTime < meetingDate and site.data.upcoming["next_meeting_date"] != '' and site.data.upcoming["next_meeting_time"] != '' and site.data.upcoming["next_meeting_url"] != '' -%}
-    <a href="{{ site.data.upcoming["next_meeting_url"] }}"><div class="next-meeting-header">The next meeting of the IWW NYC General Membership Branch will be on {{ site.data.upcoming["next_meeting_date"] }}, from {{ site.data.upcoming["next_meeting_time"] }}. Click for details.</div></a>
+    <a href="{{ site.data.upcoming["next_meeting_url"] }}"><div class="next-meeting-header">The next meeting of the IWW Detroit General Membership Branch will be on {{ site.data.upcoming["next_meeting_date"] }}, from {{ site.data.upcoming["next_meeting_time"] }}. Click for details.</div></a>
   {%- endif -%}
-  <img src="{{ site.baseurl }}/assets/logo.png" onclick="window.location.href='{{ site.baseurl }}/';" style="cursor:pointer;display:block;margin-top:70px;margin-left:auto;margin-right:auto;width:430px;padding:10px;max-width:93%;border-radius:100%;" alt="IWW NYC GMB" id="IWWlogo">
+  <img src="{{ site.baseurl }}/assets/globe.png" onclick="window.location.href='{{ site.baseurl }}/';" style="cursor:pointer;display:block;margin-top:70px;margin-left:auto;margin-right:auto;width:430px;padding:10px;max-width:93%;border-radius:100%;" alt="IWW Detroit GMB" id="IWWlogo">
   <p class="titleIWW">Industrial Workers<span style="text-transform:none !important;font-variant:small-caps;"> of the </span>World</p>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -23,11 +23,7 @@
           <a href="{{ site.baseurl }}/gmb" class="page-link{% if page.url contains '/gmb/' or page.url == '/gdc/' or page.url == '/safer-space/' or page.url == '/rustys/' or page.url == '/bylaws/' or page.url == '/resources/' %} current{% endif %}">About</a>
           <div id="dropdown-content">
             <a href="{{ site.baseurl }}/gmb/" class="page-link{% if page.url == '/gmb/' %} current{% endif %}">General Membership Branch</a>
-            <a href="{{ site.baseurl }}/gdc/" class="page-link{% if page.url contains '/gdc/' %} current{% endif %}">General Defense Committee</a>
             <a href="{{ site.baseurl }}/safer-space/" class="page-link{% if page.url contains '/safer-space/' %} current{% endif %}">Safer Space Policy</a>
-            <a href="https://incarceratedworkers.org/branches/new-york-city" class="page-link">Incarcerated Workers Organizing Committee</a>
-            <a href="https://freelancejournalistsunion.org" class="page-link">Freelance Journalists Union</a>
-            <a href="https://www.stardustfamilyunited.com" class="page-link">Stardust Family United</a>
           </div>
         </div>
         <a href="{{ site.baseurl }}/news" class="page-link{% if page.url contains '/news/' %} current{% endif %}">News</a>
@@ -39,11 +35,7 @@
         <option value="{{ site.baseurl }}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events</option>
         <optgroup label="About">
           <option value="{{ site.baseurl }}/gmb/" {% if page.url contains '/gmb/' %}selected{% endif %}>General Membership Branch</option>
-          <option value="{{ site.baseurl }}/gdc/" {% if page.url contains '/gdc/' %}selected{% endif %}>General Defense Committee</option>
           <option value="{{ site.baseurl }}/safer-space/" {% if page.url contains '/safer-space/' %}selected{% endif %}>Safer Space Policy</option>
-          <option value="https://incarceratedworkers.org/branches/new-york-city">Incarcerated Workers Organizing Committee</option>
-          <option value="https://freelancejournalistsunion.org">Freelance Journalists Union</option>
-          <option value="https://www.stardustfamilyunited.com">Stardust Family United</option>
         </optgroup>
         <option value="{{ site.baseurl }}/news/" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
       </select>

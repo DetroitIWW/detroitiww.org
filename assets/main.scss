@@ -186,7 +186,7 @@
 }
 
 .current {
-  color: hsl(356, 68%, 41%) !important;
+  color: #ffffff !important;
 }
 
 #dropdown-content {
@@ -464,6 +464,7 @@ a {
   border-bottom: 0px;
   min-height: 30px * 1.865;
   position: relative;
+	background-color: hsl(356, 68%, 41%);
 }
 
 .site-title {
@@ -480,6 +481,10 @@ a {
   }
 }
 
+.titleIWW {
+	color:#000000;
+}
+
 #select-nav {
   margin-right: auto;
   margin-left: auto;
@@ -488,7 +493,6 @@ a {
   display: none;
   max-width: 85%;
   position: absolute !important;
-  opacity: 0;
   vertical-align: middle;
 }
 
@@ -502,7 +506,6 @@ a {
   margin-right: auto;
   margin-left: auto;
   font-size: 24px;
-  color: hsl(356, 68%, 41%);
   text-transform: uppercase;
   display: none;
   max-width: 85%;
@@ -517,15 +520,15 @@ a {
   text-transform: uppercase;
   margin-top: 45px;
   margin-bottom: 20px;
-  color: hsl(0, 0%, 23%);
+  color:#000000;
 
     & a:hover {
-      color: hsl(356, 68%, 41%);
+			color:#ffffff;
     }
   }
 
 .page-link {
-    color: rgb(59, 59, 59);
+    color: #000000;
     line-height: 1.5;
 
     // Gaps between nav items, but not on the last one
