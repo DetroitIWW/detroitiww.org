@@ -33,40 +33,40 @@
     {%- if page_paths -%}
     <nav class="site-nav">
       <div id="link-nav">
-        <a href="{{ site.baseurl }}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
-        <a href="{{ site.baseurl }}/contact"
+        <a href="{{ site.baseurl }}/#link-nav" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
+        <a href="{{ site.baseurl }}/contact/#link-nav"
           class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
-        <a href="{{ site.baseurl }}/join"
+        <a href="{{ site.baseurl }}/join/#link-nav"
           class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
-        <a href="{{ site.baseurl }}/events"
+        <a href="{{ site.baseurl }}/events/#link-nav"
           class="page-link{% if page.url contains '/events/' %} current{% endif %}">Events</a>
         <div id="dropdown">
-          <a href="{{ site.baseurl }}/gmb"
+          <a href="{{ site.baseurl }}/gmb/#link-nav"
             class="page-link{% if page.url contains '/gmb/' or page.url == '/gdc/' or page.url == '/safer-space/' or page.url == '/rustys/' or page.url == '/bylaws/' or page.url == '/resources/' %} current{% endif %}">About</a>
           <div id="dropdown-content">
-            <a href="{{ site.baseurl }}/gmb/" class="page-link{% if page.url == '/gmb/' %} current{% endif %}">General
+            <a href="{{ site.baseurl }}/gmb/#link-nav" class="page-link{% if page.url == '/gmb/' %} current{% endif %}">General
               Membership Branch</a>
-            <a href="{{ site.baseurl }}/safer-space/"
+            <a href="{{ site.baseurl }}/safer-space/#link-nav"
               class="page-link{% if page.url contains '/safer-space/' %} current{% endif %}">Safer Space Policy</a>
           </div>
         </div>
-        <a href="{{ site.baseurl }}/news"
+        <a href="{{ site.baseurl }}/news/#link-nav"
           class="page-link{% if page.url contains '/news/' %} current{% endif %}">News</a>
       </div>
       <select id="select-nav" onchange="navChange ();location = this.value;">
-        <option value="{{ site.baseurl }}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
-        <option value="{{ site.baseurl }}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact
+        <option value="{{ site.baseurl }}//#link-nav" {% if page.url == '/' %}selected{% endif %}>Home</option>
+        <option value="{{ site.baseurl }}/contact/#link-nav" {% if page.url contains '/contact/' %}selected{% endif %}>Contact
         </option>
-        <option value="{{ site.baseurl }}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
-        <option value="{{ site.baseurl }}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events
+        <option value="{{ site.baseurl }}/join/#link-nav" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
+        <option value="{{ site.baseurl }}/events/#link-nav" {% if page.url contains '/events/' %}selected{% endif %}>Events
         </option>
         <optgroup label="About">
-          <option value="{{ site.baseurl }}/gmb/" {% if page.url contains '/gmb/' %}selected{% endif %}>General
+          <option value="{{ site.baseurl }}/gmb/#link-nav" {% if page.url contains '/gmb/' %}selected{% endif %}>General
             Membership Branch</option>
-          <option value="{{ site.baseurl }}/safer-space/" {% if page.url contains '/safer-space/' %}selected{% endif %}>
+          <option value="{{ site.baseurl }}/safer-space/#link-nav" {% if page.url contains '/safer-space/' %}selected{% endif %}>
             Safer Space Policy</option>
         </optgroup>
-        <option value="{{ site.baseurl }}/news/" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
+        <option value="{{ site.baseurl }}/news/#link-nav" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
       </select>
       <span id="current-selection"></span>
 
