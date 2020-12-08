@@ -198,14 +198,21 @@
     display: block;
     z-index: 1;
     background-color: rgba(252, 252, 252, 0.9);
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 4px 8px;
     text-align: left;
     border-left: 3px solid hsl(356, 68%, 41%);
 }
 
 #dropdown:hover #dropdown-content {
   display: block;
+
+  .page-link {
+    margin-right: 0;
+  }
+  a:hover {
+    color: #660007;
+    background-color: #eee;
+  }
 }
 
 #dropdown {
