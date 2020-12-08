@@ -6,9 +6,7 @@
   font-weight: 200;
   src: url(/fonts/Mukta/Mukta-ExtraLight.ttf);
 }
-
-@font-face {
-  font-family: 'Mukta';
+@font-face { font-family: 'Mukta';
   font-style: normal;
   font-weight: 300;
   src: url(/fonts/Mukta/Mukta-Light.ttf);
@@ -203,6 +201,7 @@
     border-left: 3px solid hsl(356, 68%, 41%);
 }
 
+
 #dropdown:hover #dropdown-content {
   display: block;
 
@@ -211,8 +210,12 @@
   }
   a:hover {
     color: #660007;
-    background-color: #eee;
   }
+}
+
+#dropdown-content .current {
+  color: #660007 !important;
+  background-color: #eee;
 }
 
 #dropdown {
@@ -395,7 +398,7 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
+ 
 /**
  * Lists
  */
