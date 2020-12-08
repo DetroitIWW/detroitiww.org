@@ -5,6 +5,15 @@ permalink: /contact/
 heading: true
 ---
 <div style="width:85%;margin-right:auto;margin-left:auto;">
+	<form accept-charset="UTF-8" action="https://formspree.io/f/mrgoyeez" method="POST">
+		Name: <input type = "text" name="Name" placeholder="Lucy Parsons">
+		Email: <input type = "email" name="_replyto" placeholder="come@me.com">
+		Message: <textarea name="message" placeholder="Greetings, fellow workers..."></textarea>
+		<input type="submit" value="send">
+		<input type="hidden" name="_subject" value="General Strike!" />
+		<input type="hidden" name="_cc" value="nawtrobar@posteo.net" />
+		<input type="hidden" name="_next" value="thanks.html" />
+	</form>
 <p>
 We can be reached on <a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" target="_blank"><strong>Twitter</strong></a>,  <a href="https://facebook.com/{{ site.facebook_username| cgi_escape | escape }}" target="_blank"><strong>Facebook</strong></a>, and at the following:<br><br>
 
