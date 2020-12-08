@@ -5,21 +5,21 @@ layout: default
   {%- assign siteTime = site.time | date: '%s' -%}
   {%- assign meetingDate = site.data.upcoming["next_meeting_date"] | date: '%s' -%}
   {%- assign orientationDate = site.data.upcoming["next_orientation_date"] | date: '%s' -%}
-    <h3 style="text-align:center;font-weight:700;font-size:25px;"><em>The IWW is a union for all workers — <a href="{{ site.baseurl }}/obu">One Big Union!</a><br>
+    <h3 style="text-align:center;font-weight:700;font-size:25px;"><em>The IWW is a union for all workers — <a href="{{ site.baseurl }}/obu/#link-nav">One Big Union!</a><br>
     Join the Detroit General Membership Branch today!</em></h3>
     <div style="text-align:center;">
-        <a href="{{ site.baseurl }}/join"><button class="large" style="margin:24px 15px 12px 15px;" ontouchstart="">Join the IWW</button></a>
+        <a href="{{ site.baseurl }}/join/#link-nav"><button class="large" style="margin:24px 15px 12px 15px;" ontouchstart="">Join the IWW</button></a>
     </div><br>
     <p style="text-align:center;">
-        <em>As long as you are a worker – not an employer – you can join the IWW. Members of other unions (except officers), students, retirees, the unemployed, the self-employed, those in informal professions, and those unable to work may also join. <a href="{{ site.baseurl }}/why-join">Learn why you should join the IWW.</a></em><br><br>
+        <em>As long as you are a worker – not an employer – you can join the IWW. Members of other unions (except officers), students, retirees, the unemployed, the self-employed, those in informal professions, and those unable to work may also join. <a href="{{ site.baseurl }}/why-join/#link-nav">Learn why you should join the IWW.</a></em><br><br>
     </p>
     <hr style="margin:20px 0 50px 0;">
     <h3 style="text-align:center;font-weight:700;font-size:25px;">Interested in organizing? Contact us today!</h3>
     <div style="text-align:center;">
-        <a href="{{ site.baseurl }}/contact"><button class="large" style="margin:24px 15px 12px 15px;" ontouchstart="">Contact the IWW</button></a>
+        <a href="{{ site.baseurl }}/contact/#link-nav"><button class="large" style="margin:24px 15px 12px 15px;" ontouchstart="">Contact the IWW</button></a>
     </div><br>
     <p style="text-align:center;">
-        Having trouble at work? Want to organize with your coworkers against your boss? Contact the IWW today and meet with experienced IWW organizers, attend an organizer training, and, with the mentorship and guidance of other Wobblies, build a union with your fellow workers at your job and in your industry. Get in touch with us by emailing <a href="mailto:detroit@iww.org">detroit@iww.org</a>. Read <a href="{{ site.baseurl }}/weakening-the-dam"><em>Weakening the Dam</em></a> to get a short primer on what an organzing campaign with the IWW could look like.<br><br>
+        Having trouble at work? Want to organize with your coworkers against your boss? Contact the IWW today and meet with experienced IWW organizers, attend an organizer training, and, with the mentorship and guidance of other Wobblies, build a union with your fellow workers at your job and in your industry. Get in touch with us by emailing <a href="mailto:detroit@iww.org">detroit@iww.org</a>. Read <a href="{{ site.baseurl }}/weakening-the-dam/#link-nav"><em>Weakening the Dam</em></a> to get a short primer on what an organzing campaign with the IWW could look like.<br><br>
     </p>
 
 <!--
@@ -40,7 +40,7 @@ layout: default
     {%- if siteTime < meetingDate and site.data.upcoming["next_meeting_date"] != '' and site.data.upcoming["next_meeting_time"] != '' and site.data.upcoming["next_meeting_url"] != '' -%}
 
     <p style="text-align:center;font-size:18px;"><br>
-    <em>The next meeting of the IWW Detroit General Membership Branch will be on {{ site.data.upcoming["next_meeting_date"] }}. <a href="{{ site.data.upcoming["next_meeting_url"] }}">Details ▸</a></em>
+    <em>The next meeting of the IWW Detroit General Membership Branch will be on {{ site.data.upcoming["next_meeting_date"] }}. <a href="{{ site.data.upcoming["next_meeting_url"] }}/#link-nav)">Details ▸</a></em>
     </p>
 
     {%- endif -%}
