@@ -1,6 +1,7 @@
 backend:
- name: github
+ name: git-gateway
  repo: DetroitIWW/detroitiww.org
+ branch: master
   
 #backend
 # name: test-repo
