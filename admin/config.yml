@@ -1,8 +1,8 @@
 backend:
  name: github
- repo: detroit-iww/detroit.org
+ repo: detroitiww/detroit.org
   
-#backend:
+#backend
 # name: test-repo
 
 display_url: https://detroitiww.org
@@ -30,7 +30,7 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
       - {label: "Netlify", name: "netlify", widget: "hidden", default: true}
       - {label: "Send to Mailchimp", name: "newsletter", widget: "boolean", hint: "Send this post as a Mailchimp newsletter", required: false}
-      - {label: "Body", name: "body", hint: "To format correctly, enter the markdown editor mode and delete any blank line breaks. There should be no gaps between lines of text when in the markdown editor.", widget: "markdown", buttons: ["bold", "italic", "code", "link", "heading-one", "heading-two", "heading-three", "code-block", "bulleted-list", "numbered-list"]}
+      - {label: "Body", name: "body", hint: "To format correctly, enter the markdown editor mode and delete any blank line breaks. There should be no gaps between lines of text when in the markdown editor.", widget: "markdown", buttons: ["bold", "italic", "code", "link", "heading-one", "heading-two", "heading-three", "bulleted-list", "numbered-list"]}
   - name: "events"
     editor:
       preview: false
