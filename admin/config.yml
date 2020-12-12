@@ -1,6 +1,6 @@
 backend:
  name: github
- repo: detroitiww/detroit.org
+ repo: DetroitIWW/detroitiww.org
   
 #backend
 # name: test-repo
