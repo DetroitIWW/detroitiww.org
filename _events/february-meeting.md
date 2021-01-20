@@ -10,3 +10,15 @@ Our monthly business meetings are a space where we hear report backs from our ca
 
 
 We ask for new members and folks curious in the union to meet with a delegate before attending a monthly business meeting. Email us at [detroit@iww.org](mailto:detroit@iww.org) and we’ll connect you with an IWW delegate who you can meet with one-on-one!
+
+Interested in joining? Join online or in-person with a delegate.
+
+
+
+
+We use Rusty’s Rules at our business meeting.
+
+
+
+
+Email detroit@iww.org for location details.
