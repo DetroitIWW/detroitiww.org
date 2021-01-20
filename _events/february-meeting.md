@@ -2,7 +2,7 @@
 layout: event
 title: February Meeting
 date: Wednesday, February 24, 2021
-time: 7:00-8:00pm
+time: 7:00-8:30pm
 ---
 
 Our monthly business meetings are a space where we hear report backs from our campaigns and for our membership to make decisions on the organizing and broader work we’re doing in the city. The IWW Detroit GMB meets on the fourth Wednesday of each month for general business meetings. These meetings currently take place over zoom conference call. Contact the branch for details.
