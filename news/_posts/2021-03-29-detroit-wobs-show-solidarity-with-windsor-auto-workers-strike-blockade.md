@@ -1,0 +1,20 @@
+---
+layout: post
+title: Detroit wobs show solidarity with Windsor auto workers strike blockade
+date: 2021-03-29T04:02:30.415Z
+permalink: /:categories/:year/:i_month/:i_day/:slug
+netlify: true
+---
+![Six IWW Detroit Members stand with a banner which reads "Stand With Unifor 444."](/assets/uploads/fpnopifhjbfgekmn.jfif)
+
+This January, members of the Detroit IWW traveled to the North American headquarters of Fiat Chrysler Automobiles (FCA) in Auburn Hills to show solidarity with striking auto industry workers across the border in Windsor, Canada.\
+\
+Members of Local 444 of Unifor, Canada's largest private sector union, barricaded the Windsor Assembly Plant on Jan. 5 as part of a labor dispute involving workers who drive completed minivans out of the factory, which is owned by Stellantis, a subsidiary of FCA. The strike began after 60 drivers who had been working there for Auto Warehousing Co. learned their jobs had been eliminated when Stellantis signed a deal with Motipark, another driver management company represented by the Teamsters, to take over the plants driving duties.\
+\
+When that new contract took effect on Jan. 1, Motipark refused to take on any of the former drivers as employees. In response, Unifor argued they had successor rights for the driving work, meaning that the previously employed drivers should have kept their jobs and benefits. Looking at the two companies rates, it's not hard to see why Stellantis might have been motivated to renegotiate its driving contracts; Motipark pays starting drivers $17.77 per hour, while Auto Warehousing Co. employees were paid  between $20 and $24 per hour, according to Unifor Local 444. Aware of the dynamics of this situation, drivers barricaded the plant, which prevented new minivans from leaving the plant and created economic pressure for a settlement.
+
+Upset with Stellantis and Motipark's treatment of the drivers, 7 Detroit wobblies journeyed out Auburn Hills on Jan. 8 with banner reading: "Stand with Unifor 444," in an effort to raise awareness about the labor struggle.\
+\
+"We went there to do a banner drop, so we could show support and signal to Fiat Chrysler and to other people in the United States that we're sympathetic to these workers," says Nathan Reiber, Branch Secretary Treasurer of the Detroit IWW. "They had the right to continue working in that factory!"\
+\
+The blockade finally came to an end on Jan. 19, when Unifor announced a deal restoring the drivers jobs at the plant, showing once again that direct action does get the goods!
