@@ -3,7 +3,8 @@ layout: post
 title: Detroit wobs show solidarity with Windsor auto workers strike blockade
 date: 2021-03-29T04:02:30.415Z
 permalink: /:categories/:year/:i_month/:i_day/:slug
-netlify: true
+netlify: false
+newsletter: false
 ---
 ![Six IWW Detroit Members stand with a banner which reads "Stand With Unifor 444."](/assets/uploads/fpnopifhjbfgekmn.jfif)
 
