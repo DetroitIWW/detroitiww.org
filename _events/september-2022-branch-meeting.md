@@ -1,7 +1,7 @@
 ---
 layout: event
 title: September 2022 Branch Meeting
-date: Tuesday, September 27, 2022
+date: Wednesday, September 28, 2022
 time: 7:00PM - 8:30PM
 ---
 Our monthly business meetings are a space where we hear report backs from our campaigns and for our membership to make decisions on the organizing and broader work we’re doing in the city. The IWW Detroit GMB meets on the fourth Wednesday of each month for general business meetings. These meetings currently take place over zoom conference call. Contact the branch for details.
