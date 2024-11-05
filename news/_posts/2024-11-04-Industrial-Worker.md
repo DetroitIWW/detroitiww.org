@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Industrial Worker
+title: Official IWW News at Industrial Worker
 date: 2024-11-04T22:46:40.659Z
 permalink: /:categories/:year/:i_month/:i_day/:slug
 netlify: true
